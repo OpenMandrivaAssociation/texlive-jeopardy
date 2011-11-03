@@ -1,3 +1,9 @@
+# revision 17757
+# category Package
+# catalog-ctan /macros/latex/contrib/jeopardy
+# catalog-date 2010-04-14 18:01:33 +0200
+# catalog-license lppl
+# catalog-version 1.1a
 Name:		texlive-jeopardy
 Version:	1.1a
 Release:	1
@@ -73,6 +79,7 @@ games, including both 1- and 2-player games.
 #- source
 %doc %{_texmfdistdir}/source/latex/jeopardy/jeopardy.dtx
 %doc %{_texmfdistdir}/source/latex/jeopardy/jeopardy.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -83,3 +90,5 @@ games, including both 1- and 2-player games.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
