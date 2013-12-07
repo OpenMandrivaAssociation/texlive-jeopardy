@@ -6,7 +6,7 @@
 # catalog-version 1.1a
 Name:		texlive-jeopardy
 Version:	1.1a
-Release:	5
+Release:	6
 Summary:	Build a jeopardy game in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jeopardy
