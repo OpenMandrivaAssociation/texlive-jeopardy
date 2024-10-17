@@ -9,7 +9,7 @@ Version:	1.1a
 Release:	12
 Summary:	Build a jeopardy game in LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jeopardy
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/jeopardy
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jeopardy.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jeopardy.doc.tar.xz
